@@ -5,9 +5,9 @@ import Error from "./pages/Error";
 import Navigation from "./pages/Navigation";
 import About from "./pages/About";
 import FrenchHome from "./pages/FrenchHome";
-import Begin from "./pages/Beginner";
-import Inter from "./pages/Intermediate";
-import Adv from "./pages/Advanced";
+import BeginStore from "./pages/Beginner";
+import InterStore from "./pages/Intermediate";
+import AdvStore from "./pages/Advanced";
 import Home from "./pages/Home";
 
 class App extends Component {
@@ -21,9 +21,9 @@ class App extends Component {
             <Route path="/store" component={Store} />
             <Route path="/about" component={About} />
             <Route path="/french" component={FrenchHome} />
-            <Route path="/beginner" component={Begin} />
-            <Route path="/intermediate" component={Inter} />
-            <Route path="/advanced" component={Adv} />
+            <Route path="/beginner" component={BeginStore} />
+            <Route path="/intermediate" component={InterStore} />
+            <Route path="/advanced" component={AdvStore} />
             <Route component={Error} />
           </Switch>
         </div>

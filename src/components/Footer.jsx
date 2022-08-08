@@ -25,7 +25,7 @@ const Footer = () => {
           <td>
             <Link to="/intermediate">Intermediate Collection</Link>
           </td>
-          <td>Email: note@therightnote.com</td>
+          <td>Email: note@theswanote.com</td>
         </tr>
         <tr>
           <Link to="/about">

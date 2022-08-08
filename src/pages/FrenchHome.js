@@ -19,7 +19,7 @@ const FrenchHome = () => (
     <br />
     <br />
     <Jumbotron>
-      <h1>Bienvenue sur La Bonne Note!</h1>
+      <h1>Bienvenue sur La SWA Note!</h1>
       <p>
         Nous sommes un magasin de musique local offrant une variété
         d'instruments pour tous les niveaux de compétence. Nous proposons
